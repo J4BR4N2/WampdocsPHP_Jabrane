@@ -16,6 +16,22 @@
         // Spare time? Style it with CSS!
 	    // ===========================================================
         
+		$string = "Secret Agent Profile";
+
+		$name = 'John';
+		$age = 45;
+		$FavoGadget = "Laser";
+		$Status = true;
+
+		echo "<h1>" . $string . "</h1>";
+		echo "<p>" . $name "<p>";
+		echo "<p>" . $age . "<p>";
+		echo "<p>" . $FavoGadget . "<p>";
+		echo "<p>" . $Status . "<p>";
+
+
+
+
 
 
 		// Time: 3-10 minutes

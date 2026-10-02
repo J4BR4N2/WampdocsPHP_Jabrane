@@ -15,7 +15,9 @@
 
     <!--   Talking to the world -->
     <?php 
-    echo "Hello worold";
+		echo "Hello worold";
+		echo "<h1>hellloooooo</h1>";
+		echo "<p>hello world</p>";
     ?>
     
 
