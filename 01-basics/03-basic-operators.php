@@ -11,22 +11,27 @@
     
 	<?php 
         //========== Arithmetic operators
-		
+		$a = 4;
+		$b = 5;
+		$a + $b
 
 
 
 		//========== Increment and decrement 
-		
+		$a--;
+		$a++;
 
 
 
 		//========== Assignment (and string) operators
-		
+		$d = 'iets'; // = is de assignements operator
+		$d .= 'nog iets';
+		echo = $d;
 
 
 
 		//========== Arithmetic assignment operators
-		
+		$basisGetal = 10;
 
 
 		

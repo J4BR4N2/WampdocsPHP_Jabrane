@@ -16,6 +16,26 @@
 	// 3. Echo out the results in a user-friendly way.
 	// ===========================================================
 
+//1
+	$pizzaPrijs = 7.99;
+	$toppingPrijs = 0.50;
+	$deliveryFee = 2;
+	$numberOfOrderedPizza = 1;
+	$numberOfPeople = 2;
+// 2CALCULATE TOTAL
+	$totalPOfOrder = 0;
+	$NumberOfSlicesPerPeople = 0;
+	$numberOfSlices = 8;
+//
+	$totalPOfOrder = $pizzaPrijs + $toppingPrijs + $deliveryFee + $numberOfOrderedPizza;
+	echo "<p>" $totalPOfOrder"</p>";
+
+	
+
+
+	
+
+
 
 	
 	// Time: ?
