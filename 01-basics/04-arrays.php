@@ -11,30 +11,40 @@
     
 	<?php 
 		//========== Indexed array
-        
+        $indexedArray = ['nul','een','twee'];
 
 
 
         //========== Associative/keyed array
-        
+        $keyedArray = [
+			'haarkleur' => 'bruin',
+			'oogkleur' => 'oranje'
+		]
 
 
 
         //========== Access arrays
-        
+        $keyedArray['oogkleur'];
+		$indexedArray[0];
 
 
 
         //========== Manipulate arrays
 
         //---- add
-        
+        $keyedArray['nieuweWaarde'] = 'de nieuwe waarde';
+		print_r($keyedArray);
+
+		$indexedArray[] = 'derde';
+		print_r($indexedArray);
 
         //---- edit
-        
+        $keyedArray['nieuweWaarde'] = 'de allernieuwste waarde';
+		$indexedArray[0] = 'nieuweNul';
 
         //---- remove
-        
+        unset($indexedArray[2]);
+		unset($keyedArray['nieuweWaarde']);
 
         //---- remove value
         

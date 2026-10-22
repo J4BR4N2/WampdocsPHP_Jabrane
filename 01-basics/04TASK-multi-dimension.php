@@ -11,11 +11,22 @@
     
 	<?php 
 		//========== 1. Make a multidimensional array
+	$kinderen = [
+		[
+			"naam" => "Jabrane",
+			"leeftijd" => "17"
+		],
+		[
+			"naam" => "Dylan",
+			"leeftijd" => "17"
+		]
+	];
 
+		echo $kinderen;
 
 
         //========== 2. Visualise some data from index 1 of the array you just created (don't just print)
-
+		print_r(); 
 
 
         //========== 3. Add more data to the existing array
