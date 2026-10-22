@@ -8,14 +8,29 @@
 </head>
 
 <body>
-	
+	<?php
+	if(isset($_POST['username'])){
+		$username = $_POST['username'];
+	}else{
+		$username = '';
+	}
+	?>
 	<!-- Formulier -->
 
+	 
+	<form action="" method="post">
+		<label for="username">Gebruikersnaam:</label>
+		<input type="text" name="username" id="username" value="<?php($username); ?>">
+		<label for="password">Wachtwoord:</label>
+		<input type="password" name="password" id="password">
+
+		<input type="submit" value="Login">
+		<!-- <button>Login</button> -->
+</form>
 
 
 	<?php 
 		//========== POST superglobal
-        
 
 
         

@@ -10,12 +10,28 @@
 <body>
 	
 	<!-- Formulier -->
-     
+	 
+     <form action="" method="">
+		<label for="username">Gebruikersnaam:</label>
+		<input type="text" name="username" id="username">
+		<label for="password">Wachtwoord:</label>
+		<input type="password" name="password" id="password">
+
+		<input type="submit" value="Login">
+		<!-- <button>Login</button> -->
+</form>
+
 
 
 	<?php 
 		//========== GET superglobal
-        
+        echo '<pre>' ;
+		print_r($_GET);
+
+		// Eerst controleren of de waarde in de array bestaat
+		if(isset($_GET['username'])){
+		echo "Welcome, " . $_GET['username'];
+	}
 
         
 	?>

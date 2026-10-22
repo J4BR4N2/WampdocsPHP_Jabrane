@@ -9,6 +9,17 @@
 
 <body>
     
+	<form action="" method="post">
+		<label for="pizzaSoort">SoortPizza:</label>
+		<input type="text" name="pizzaSoort" id="pizzaSoort" value="<?php($soortpizza); ?>">
+		<label for="AantalToppingPizza">Pizza:</label>
+		<input type="AantalToppingPizza" name="AantalToppingPizza" id="AantalToppingPizza">
+
+		<input type="submit" value="Login">
+		<!-- <button>Login</button> -->
+	</form>
+
+	
 	<?php 
 	    // ===========================================================
 		// Adapt the previous task (pizza shop) and remove any unnecessary variables. 
@@ -16,7 +27,6 @@
 		// When the form is submitted, calculate the total price and how many slices each person gets if each pizza has 8 slices.
 	    // ===========================================================
 		
-
 		
 
 		// Time: 3-10 minutes
