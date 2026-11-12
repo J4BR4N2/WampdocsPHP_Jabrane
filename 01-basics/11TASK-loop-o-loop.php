@@ -18,8 +18,29 @@
 		// Voeg een beetje leuke wiskunde toe: geef elke persoon een willekeurig "fun level" tussen 1-6 (Elke waarde heeft een andere betekenis) en echo dit naast hun naam. Bvb: "Alice is screaming!", "Bob is holding on tight!"
 		// ===========================================================
 		
+		$Namen = ['Dylan','Jabrane','Elise','Aaron','Amo','Braien','matteo','Jonas'];
 
+			for ($i=0; $i < 3; $i++) {
+				echo "Rit " . $i + 1 . " vertrekt <br>";
+			}
 
+			foreach ($variable as $key => $value) {
+				$funlevel = rand(1,6);
+
+				if (funlevel == 1){
+
+				}if (funlevel == 2){
+					
+				}if (funlevel == 3){
+					
+				}if (funlevel == 4){
+					
+				}if (funlevel == 5){
+					
+				}if (funlevel == 6){
+					
+				}
+			}
 
 		
 
