@@ -15,7 +15,20 @@
 		// Figure out how to implement X and Y.
 		// Return a string which mentions all rolled dice and gives a total. 
 	    // ===========================================================
-		
+		function rollDice($x, $y){
+			$total = 0;
+			$result = "";
+
+			for ($i = 1; $i <= $y; $i++){
+				$worp = rand(1, $x);
+				$total = $total + $worp;
+				$result .= "Dobbelsteen " . $i . ": " . $worp . "<br>";
+			}
+
+			return $result . "total: " . $total;
+		}
+
+		echo rollDice(6, 3);
 		
 
 		// Time: 5-12 minutes
