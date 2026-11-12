@@ -11,7 +11,12 @@
     
 	<?php 
 		//========== For loops
-        
+        for ($i=0; $i < ; $i++) { 
+			echo "Dit is een keer";
+			s
+			s
+			s
+		}
 
 
 

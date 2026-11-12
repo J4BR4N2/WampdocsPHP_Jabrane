@@ -11,12 +11,15 @@
     
 	<?php 
         //========== Loop through indexed array with foreach
-        
+			$kleuren = array("red", "green", "blue", "purple");
 
-
-
+			foreach ($kleuren as $kleur) {
+			echo "$kleur <br>";
+			}
         //========== Loop through keyed array with foreach
-        
+      	foreach ($kleuren as $key => $kleur) {
+			echo "$key : $kleur <br>";
+			}
 
 
 	?>

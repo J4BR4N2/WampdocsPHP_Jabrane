@@ -39,7 +39,7 @@
 		// hypot()
 		// fmod()
 		// number_format()
-
+		
 	?>
 
 	<a href="06TASK-pizza-shop-reloaded.php" class='previousTopic' disabled>Ga naar vorig topic</a>
